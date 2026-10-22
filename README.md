@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%202004%2B%20%7C%2011-0078D6?logo=windows&logoColor=white)](#系统要求)
 [![.NET](https://img.shields.io/badge/.NET%20Framework-4.x-512BD4?logo=dotnet&logoColor=white)](#系统要求)
 [![Single File](https://img.shields.io/badge/single%20exe-no%20install-2ea44f)](#快速开始)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 
 ---
 
@@ -224,6 +225,10 @@ remote desktop black screen · privacy screen · hide local screen during remote
 remote control privacy · screen capture exclusion · WDA_EXCLUDEFROMCAPTURE ·
 Sunlogin / ToDesk / RustDesk · Windows tray app · C# WinForms ·
 远程桌面黑屏 · 远程控制防偷窥 · 向日葵黑屏 · ToDesk 黑屏 · 远程时屏幕变黑
+
+## 许可证
+
+[MIT](LICENSE) © 2026 yccx030827
 
 ---
 
