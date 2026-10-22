@@ -1,0 +1,10 @@
+# 编译产物（用 build.ps1 自行生成）
+*.exe
+bin/
+obj/
+
+# IDE / 系统杂项
+.vs/
+*.user
+Thumbs.db
+desktop.ini
