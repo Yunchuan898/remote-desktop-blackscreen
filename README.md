@@ -97,7 +97,7 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 
 ### 兼容性
 
-绝大多数基于 Desktop Duplication API / PrintWindow 的抓屏方式（向日葵、ToDesk、RustDesk、mstsc 等）都能正确「看穿」覆盖层。少数自带采集驱动的远控工具可能仍然把黑幕抓走——此时换用 `MonitorOff` 方式。
+常见远控工具（向日葵、ToDesk、RustDesk、mstsc 等）通常基于 Desktop Duplication API 抓屏，覆盖层一般能被正确排除。少数自带采集驱动的远控可能仍然把黑幕抓走——具体以你机器上的实际测试为准，遇到这种情况换用 `MonitorOff` 方式。
 
 ## 配置文件
 
@@ -222,7 +222,7 @@ build.ps1                  一键编译脚本（调用系统自带 csc.exe）
 
 remote desktop black screen · privacy screen · hide local screen during remote session ·
 remote control privacy · screen capture exclusion · WDA_EXCLUDEFROMCAPTURE ·
-Sunlogin / ToDesk / RustDesk / TeamViewer compatible · Windows tray app · C# WinForms ·
+Sunlogin / ToDesk / RustDesk · Windows tray app · C# WinForms ·
 远程桌面黑屏 · 远程控制防偷窥 · 向日葵黑屏 · ToDesk 黑屏 · 远程时屏幕变黑
 
 ---
