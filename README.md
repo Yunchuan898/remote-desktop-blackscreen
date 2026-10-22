@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%202004%2B%20%7C%2011-0078D6?logo=windows&logoColor=white)](#系统要求)
 [![.NET](https://img.shields.io/badge/.NET%20Framework-4.x-512BD4?logo=dotnet&logoColor=white)](#系统要求)
 [![Single File](https://img.shields.io/badge/single%20exe-no%20install-2ea44f)](#快速开始)
+[![Release](https://img.shields.io/github/v/release/Yunchuan898/remote-desktop-blackscreen?label=download)](https://github.com/Yunchuan898/remote-desktop-blackscreen/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f)](LICENSE)
 
 ---
@@ -33,7 +34,13 @@
 
 ## 快速开始
 
-### 编译（Windows 10/11 自带 .NET Framework 4.x，无需安装任何 SDK）
+### 方式一：直接下载
+
+到 [Releases](https://github.com/Yunchuan898/remote-desktop-blackscreen/releases/latest) 下载 `BlackScreenHelper.exe`（约 23 KB），放到任意目录双击运行，无需安装。
+
+> exe 未做代码签名，SmartScreen 可能提示"未知发布者"，选择"更多信息 → 仍要运行"即可；不放心可以用下面的方式自行编译。
+
+### 方式二：自行编译（Windows 10/11 自带 .NET Framework 4.x，无需安装任何 SDK）
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File build.ps1
